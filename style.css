@@ -1,0 +1,238 @@
+.micro {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin-left: 1475px;
+    margin-top: 75px;
+    cursor: pointer;
+}
+.feelLikee {
+    position: absolute;
+    margin-left: 600px;
+}
+.date {
+    margin-left: 100px;
+}
+.main-icon {
+    position: absolute;
+    margin-left: 300px;
+    width: 150px;
+    height: 150px;
+}
+.temperature {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 10em;
+}
+.overcast {
+    position: absolute;
+    margin-left: 600px;
+}
+.feelLike {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.wind {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 80px;
+}
+.humidity {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 110px;
+}
+.geolocation {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+.background {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    background: black;
+    margin-top: 200px;
+    margin-left: 150px;
+    opacity: 0.5;
+    color: white;
+    font-family: sans-serif;
+}
+.coords {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 650px;
+    font-family: sans-serif;
+}
+.coords1 {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 725px;
+    font-family: sans-serif;
+}
+.map {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-left: 1000px;
+    margin-top: 200px;
+}
+.button-english {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 600px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+.button-english:hover {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 600px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    animation: background 3s infinite alternate;
+}
+.button-russian {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 650px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+.button-russian:hover {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 650px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    animation: background 3s infinite alternate;
+}
+.button-belorussian {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 700px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+.button-belorussian:hover {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 700px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    animation: background 3s infinite alternate;
+}
+.button-temperatureC {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 775px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+.button-temperatureC:hover {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 775px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    animation: background 3s infinite alternate;
+}
+.button-temperatureF {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 825px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+.button-temperatureF:hover {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 825px;
+    margin-top: 100px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    animation: background 3s infinite alternate;
+}
+@keyframes background {
+50% {
+background: skyblue;
+box-shadow: 0 -200px 100px -100px yellowgreen inset;
+}
+}
+.search-input {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 1200px;
+    margin-top: 100px;
+    text-align: center;
+    opacity: 0.5;
+    color: white;
+    background-color: black;
+}
+.search-button {
+    cursor: pointer;
+    position: absolute;
+    width: 75px;
+    height: 54px;
+    border: 1px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 1401px;
+    margin-top: 100px;
+}
+.reload {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 100px;
+}

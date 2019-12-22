@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <link href="style.css" rel="stylesheet">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=76a833b5-74c9-4bd3-915c-3ff130d9a4d8&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body id="body">
+	<h1 class="reload" id="reload">🔃</h1>
+	<button class="button-english" id="button-english">en</button>
+	<button class="button-russian" onclick="ru();" id="button-russian">ru</button>
+	<button class="button-belorussian" onclick="be();" id="button-belorussian">be</button>
+	<button class="button-temperatureC" id="button-temperatureC">C</button>
+	<button class="button-temperatureF" id="button-temperatureF">F</button>
+	<input type="text" name="" class="search-input" id="search-input" placeholder="Search city or ZIP">
+	<button class="search-button" id="search-button">Search</button>
+	<div id="map" class="map"></div>
+	<div class="background" id="background"><h1 id="city"></h1></div>
+	<img src="assets/micro.png" class="micro" id="micro">
+    <script src="main.js"></script>
+    </body>
+    </html>
